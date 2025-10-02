@@ -126,6 +126,7 @@ body {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7)),url(../images/hero-background.jpg);
     background-position: center;
     background-color: #2E2F42;
+    background-size: cover;
             
 }
 
