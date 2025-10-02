@@ -459,7 +459,7 @@ footer {
  .icon-facebook:hover,
  .icon-linkedin:hover {
 
-    background-color: #b3d031;
+    background-color: rgba(49, 208, 170, 1);
 
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
