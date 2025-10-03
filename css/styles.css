@@ -444,6 +444,8 @@ footer {
     gap: 16px;    
     align-self: flex-start;
     list-style: none;
+    
+    
 }
 
   .icon-instagram,
@@ -453,6 +455,8 @@ footer {
     width: 40px ;
     height: 40px ;
     border-radius: 50%;
+    background-color: rgba(77, 90, 229, 1);
+    
 }
 
  .icon-instagram:hover,
