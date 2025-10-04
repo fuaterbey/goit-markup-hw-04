@@ -453,7 +453,7 @@ footer {
 .icons_footer {
     display: flex;
     align-items: center;
-    justify-items: center;
+    justify-content: center;
     text-align: center;
    
     width: 40px;
