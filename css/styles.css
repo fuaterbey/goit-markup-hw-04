@@ -445,9 +445,16 @@ footer {
     display: flex;
     flex-direction: row;
     gap: 16px;    
-    align-self: flex-start;
+    text-align: center;
     list-style: none;
     
+}
+
+.icons_footer {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(77, 90, 229, 1);
     
 }
 
@@ -455,17 +462,12 @@ footer {
   .icon-twitter_2,
   .icon-facebook_2,
   .icon-linkedin_2 {
-    width: 40px ;
-    height: 40px ;
-    border-radius: 50%;
-    background-color: rgba(77, 90, 229, 1);
+    width: 24px ;
+    height: 24px ;
     
 }
 
- .icon-instagram_2:hover,
- .icon-twitter_2:hover,
- .icon-facebook_2:hover,
- .icon-linkedin_2:hover {
+.icons_footer:hover {
 
     background-color: rgba(49, 208, 170, 1);
 
