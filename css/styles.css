@@ -290,7 +290,7 @@ h2 {
     
 }
 
-.social-icons-our .links {
+.icons_ourteam {
     display: flex;
     border-radius: 50%;
     justify-content: center;
@@ -300,13 +300,24 @@ h2 {
     height: 40px;
 }
 
-.social-icons-our .links:hover {
+.icons_ourteam:hover {
 
     background-color: #404BBF;
 
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+  .icon-instagram_1,
+  .icon-twitter_1,
+  .icon-facebook_1,
+  .icon-linkedin_1 {
+
+      width: 24px;
+      height: 24px;
+
+
+  }
 
 .portfolio {
     display: flex;
@@ -445,7 +456,6 @@ footer {
     flex-direction: row;
     gap: 16px;    
     list-style: none;
-    justify-items: auto;
     
 }
 
