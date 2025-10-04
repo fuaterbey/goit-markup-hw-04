@@ -445,12 +445,17 @@ footer {
     display: flex;
     flex-direction: row;
     gap: 16px;    
-    text-align: center;
     list-style: none;
+    justify-items: auto;
     
 }
 
 .icons_footer {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+   
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -462,8 +467,10 @@ footer {
   .icon-twitter_2,
   .icon-facebook_2,
   .icon-linkedin_2 {
+    
     width: 24px ;
     height: 24px ;
+      
     
 }
 
